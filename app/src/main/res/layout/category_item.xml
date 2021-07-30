@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="@color/white"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:animateLayoutChanges="true"
+    app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:id="@+id/row_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/categoryImage"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                app:riv_corner_radius="@dimen/_5sdp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/categoryName"
+                android:layout_margin="@dimen/_5sdp"
+                android:maxLines="1"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_11ssp"
+                android:textColor="@color/PrimaryColor"/>
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

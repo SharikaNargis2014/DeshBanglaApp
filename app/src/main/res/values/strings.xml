@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Desh Bangla</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ImgUrl">https://banglafishshrimp.com/</string>
+    <string name="ProductDetailsUrl">https://banglafishshrimp.com/product_details/</string>
+    <string name="weightScale">" "KG</string>
+    <string name="price">" "৳</string>
+    <string name="orderId">Order ID:" "</string>
+    <string name="placedOn">Placed on:" "</string>
+    <string name="pending">Pending</string>
+    <string name="delivered">Delivered</string>
+    <string name="recipient">recipient:" "</string>
+    <string name="address">address:" "</string>
+    <string name="total">Total:" "</string>
+</resources>
